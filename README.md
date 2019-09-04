@@ -11,32 +11,32 @@ We've provided you with a console that you can use to test your code. To enter a
 ### `Recipe`
 Build the following methods on the Recipe class
 
-- `Recipe.all`
-should return all of the recipe instances
-- `Recipe.most_popular`
-should return the recipe instance with the highest number of users (the recipe that has the most recipe cards)
-- `Recipe#users`
-should return the user instances who have recipe cards with this recipe
-- `Recipe#ingredients`
-should return all of the ingredients in this recipe
-- `Recipe#allergens`
-should return all of the `Ingredient`s in this recipe that are allergens for `User`s in our system.
-- `Recipe#add_ingredients`
-should take an array of ingredient instances as an argument, and associate each of those ingredients with this recipe
+<!-- - `Recipe.all`
+should return all of the recipe instances -->
+<!-- - `Recipe.most_popular`
+should return the recipe instance with the highest number of users (the recipe that has the most recipe cards) -->
+<!-- - `Recipe#users`
+should return the user instances who have recipe cards with this recipe -->
+<!-- - `Recipe#ingredients`
+should return all of the ingredients in this recipe -->
+<!-- - `Recipe#allergens`
+should return all of the `Ingredient`s in this recipe that are allergens for `User`s in our system. -->
+<!-- - `Recipe#add_ingredients`
+should take an array of ingredient instances as an argument, and associate each of those ingredients with this recipe -->
 
 ### `Allergy`
 An Allergy is a join between a user and an ingredient.  This is a has-many-through relationship.  What methods should an instance of this model respond to?
 
-- `Allergy.all`
-should return all of the Allergy instances
+<!-- - `Allergy.all`
+should return all of the Allergy instances -->
 
 ### `User`
 Build the following methods on the User class
 
-- `User.all`
-should return all of the user instances
-- `User#recipes`
-should return all of the recipes this user has recipe cards for
+<!-- - `User.all`
+should return all of the user instances -->
+<!-- - `User#recipes`
+should return all of the recipes this user has recipe cards for -->
 - `User#add_recipe_card`
 should accept a recipe instance as an argument, as well as a date and rating, and create a new recipe card for this user and the given recipe
 - `User#declare_allergy`
